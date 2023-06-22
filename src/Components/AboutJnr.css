@@ -1,0 +1,51 @@
+.about-container{
+    height: max-content;
+    width: 100%;
+    padding: 10px 0 20px 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.about-items{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    
+}
+#mission-vision{
+    justify-self: center;
+    margin: auto;
+    
+}
+.text-about{
+    overflow: hidden;
+    word-break: keep-all;
+    color: rgb(95, 95, 95);
+    margin-top: 0;
+}
+#about-image{
+    background-image: url('../Images/BrutusLogo.jpeg');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 2px;
+   
+}
+.about-text{
+    height: 40vh;
+    width: 410px;
+    margin: 10px;
+   justify-content: center;
+   
+}
+
+/* when screen is minimun */
+@media screen and (max-width: 960px){
+#about-image{
+    display: none;
+}
+.about-text{
+    padding: 0 3px 0 3px;
+}
+}
